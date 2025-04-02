@@ -24,30 +24,75 @@ namespace LaMasCoqueta
         protected global::System.Web.UI.HtmlControls.HtmlForm frmInicio;
 
         /// <summary>
-        /// pnlInicio control.
+        /// ddlEmpleado control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlInicio;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEmpleado;
 
         /// <summary>
-        /// hlEmpleados control.
+        /// txtSalarioBase control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlEmpleados;
+        protected global::System.Web.UI.WebControls.TextBox txtSalarioBase;
 
         /// <summary>
-        /// hlPagos control.
+        /// txtHorasExtras control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlPagos;
+        protected global::System.Web.UI.WebControls.TextBox txtHorasExtras;
+
+        /// <summary>
+        /// txtDeducciones control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDeducciones;
+
+        /// <summary>
+        /// txtAuxilioTransporte control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAuxilioTransporte;
+
+        /// <summary>
+        /// txtTotalPagar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTotalPagar;
+
+        /// <summary>
+        /// btnCalcular control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCalcular;
+
+        /// <summary>
+        /// btnGuardar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnGuardar;
     }
 }

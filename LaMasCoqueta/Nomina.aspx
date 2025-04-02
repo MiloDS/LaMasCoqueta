@@ -31,19 +31,40 @@
     <!--Contenido pricipal-->
     <div class="container">
         <form id="frmInicio" runat="server">
-            <div id="panelContent" class="panel-content">
-                <asp:Panel ID="pnlInicio" runat="server" CssClass="inicio-container">
-                    <h2>Bienvenido a la Gestión de Nómina</h2>
-                    <p>En esta aplicación podrás administrar la información de empleados, generar pagos y consultar reportes de forma rápida y sencilla.</p>
-                    <div class="acciones-principales">
-                        <asp:HyperLink ID="hlEmpleados" runat="server" NavigateUrl="~/Empleados.aspx" CssClass="btn-link">
-                            Ir a Empleados
-                        </asp:HyperLink>
-                        <asp:HyperLink ID="hlPagos" runat="server" NavigateUrl="~/Nomina.aspx" CssClass="btn-link">
-                            Ir a Pagos
-                        </asp:HyperLink>
-                    </div>
-                </asp:Panel>
+
+            <div class="form-group">
+                <label for="ddlEmpleado">Empleado:</label>
+                <asp:DropDownList ID="ddlEmpleado" runat="server" CssClass="input-field"></asp:DropDownList>
+            </div>
+
+            <div class="form-group">
+                <label for="txtSalarioBase">Salario Base:</label>
+                <asp:TextBox ID="txtSalarioBase" runat="server" CssClass="input-field" ReadOnly="true"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label for="txtHorasExtras">Horas Extras:</label>
+                <asp:TextBox ID="txtHorasExtras" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label for="txtDeducciones">Deducciones:</label>
+                <asp:TextBox ID="txtDeducciones" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label for="txtAuxilioTransporte">Auxilio de Transporte:</label>
+                <asp:TextBox ID="txtAuxilioTransporte" runat="server" CssClass="input-field" ReadOnly="true"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label for="txtTotalPagar">Total a Pagar:</label>
+                <asp:TextBox ID="txtTotalPagar" runat="server" CssClass="input-field" ReadOnly="true"></asp:TextBox>
+            </div>
+
+            <div class="button-group">
+                <asp:Button ID="btnCalcular" runat="server" Text="Calcular Pago" CssClass="btn btn-primary" OnClick="btnCalcular_Click" />
+                <asp:Button ID="btnGuardar" runat="server" Text="Guardar Nómina" CssClass="btn btn-secondary" OnClick="btnGuardar_Click" />
             </div>
         </form>
     </div>

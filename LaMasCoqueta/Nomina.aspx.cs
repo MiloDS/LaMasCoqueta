@@ -13,5 +13,15 @@ namespace LaMasCoqueta
         {
 
         }
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
