@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\global.css" />
+    <Content Include="css\global2.css" />
     <Content Include="Default.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="ListadoEmpleados.aspx" />
