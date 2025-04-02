@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Proyectos\\LaMasCoqueta\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|d:\\proyectos\\lamascoqueta\\lamascoqueta\\nomina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|solutionrelative:lamascoqueta\\nomina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|d:\\proyectos\\lamascoqueta\\lamascoqueta\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|solutionrelative:lamascoqueta\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|d:\\proyectos\\lamascoqueta\\lamascoqueta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{42996CF9-D9D2-455C-8AA8-2F2850FF595E}|LaMasCoqueta\\LaMasCoqueta.csproj|solutionrelative:lamascoqueta\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "global.css",
+              "DocumentMoniker": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\css\\global.css",
+              "RelativeDocumentMoniker": "LaMasCoqueta\\css\\global.css",
+              "ToolTip": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\css\\global.css",
+              "RelativeToolTip": "LaMasCoqueta\\css\\global.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-02T07:50:24.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\Default.aspx",
+              "RelativeDocumentMoniker": "LaMasCoqueta\\Default.aspx",
+              "ToolTip": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\Default.aspx",
+              "RelativeToolTip": "LaMasCoqueta\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-01T22:47:26.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nomina.aspx",
+              "DocumentMoniker": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\Nomina.aspx",
+              "RelativeDocumentMoniker": "LaMasCoqueta\\Nomina.aspx",
+              "ToolTip": "D:\\Proyectos\\LaMasCoqueta\\LaMasCoqueta\\Nomina.aspx",
+              "RelativeToolTip": "LaMasCoqueta\\Nomina.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-01T23:07:10.587Z",
+              "EditorCaption": ""
             }
           ]
         }

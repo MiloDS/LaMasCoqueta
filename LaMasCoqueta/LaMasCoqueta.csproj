@@ -67,9 +67,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\global.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Empleados.aspx" />
+    <Content Include="ListadoEmpleados.aspx" />
+    <Content Include="Nomina.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.aspx.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleados.aspx.designer.cs">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoEmpleados.aspx.cs">
+      <DependentUpon>ListadoEmpleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoEmpleados.aspx.designer.cs">
+      <DependentUpon>ListadoEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\clsEmpleado.cs" />
+    <Compile Include="modelo\clsGestionEmpleado.cs" />
+    <Compile Include="modelo\clsGestionNomina.cs" />
+    <Compile Include="modelo\clsNomina.cs" />
+    <Compile Include="Nomina.aspx.cs">
+      <DependentUpon>Nomina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nomina.aspx.designer.cs">
+      <DependentUpon>Nomina.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +117,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Archivos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

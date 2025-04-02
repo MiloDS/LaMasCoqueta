@@ -1,0 +1,163 @@
+﻿/* Fuente y Reseteo General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.header {
+    background-color: #1E1E2D;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Menú */
+.menu {
+    background-color: #29293D;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+
+        .menu ul li {
+            position: relative;
+        }
+
+            .menu ul li a {
+                display: block;
+                color: #E0E0E0;
+                text-decoration: none;
+                padding: 12px 20px;
+                transition: 0.3s;
+            }
+
+                .menu ul li a:hover {
+                    background-color: #0078FF;
+                    color: #fff;
+                }
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #34344A;
+    min-width: 180px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+    .dropdown-content a {
+        color: #E0E0E0;
+        padding: 12px 16px;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #0078FF;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Contenedor */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botones */
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background: #0078FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background: #005FCC;
+    }
+
+.btn-secondary {
+    background: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn-secondary:hover {
+        background: #5a6268;
+    }
+
+/* Botones de acción en la página de inicio */
+.btn-link {
+    display: inline-block;
+    background: #0078FF;
+    color: #fff !important;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+    .btn-link:hover {
+        background: #005FCC;
+    }
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,3 @@
+1001,Juan,Pérez,35,Administrador,3500000
+1002,Marta,Gómez,28,Contadora,2800000
+1003,Pedro,Ramírez,40,Operario,1800000
