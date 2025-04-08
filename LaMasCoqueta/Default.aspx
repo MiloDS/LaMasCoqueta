@@ -26,6 +26,7 @@
                         </div>
                     </li>
                     <li><a href="Nomina.aspx">Pagos</a></li>
+                     <li><a href="ListadoNomina.aspx">Historial Pagos</a></li>
                 </ul>
             </div>
         </nav>

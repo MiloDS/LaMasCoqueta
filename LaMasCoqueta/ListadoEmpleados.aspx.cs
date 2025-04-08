@@ -10,11 +10,12 @@ namespace LaMasCoqueta
 {
     public partial class ListadoEmpleados : System.Web.UI.Page
     {
+        clsGestionEmpleado objGestionEmpleado = new clsGestionEmpleado();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {   
-                gvEmpleados.DataSource = clsGestionEmpleado.LeerEmpleados();
+                gvEmpleados.DataSource = objGestionEmpleado.LeerEmpleados();
                 gvEmpleados.DataBind();
             }
         }

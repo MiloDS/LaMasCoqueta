@@ -25,6 +25,7 @@
                     </div>
                 </li>
                 <li><a href="Nomina.aspx">Pagos</a></li>
+                <li><a href="ListadoNomina.aspx">Historial Pagos</a></li>
             </ul>
         </nav>
     </div>
@@ -32,26 +33,33 @@
     <div class="container">
         <form id="frmInicio" runat="server">
 
+            <!-- Buscamos el empleado ingresando su código -->
             <div class="form-group">
-                <label for="ddlEmpleado">Empleado:</label>
-                <asp:DropDownList ID="ddlEmpleado" runat="server" CssClass="input-field"></asp:DropDownList>
+                <label for="txtEmpleado">Código Empleado:</label>
+                <asp:TextBox ID="txtEmpleado" runat="server" CssClass="input-field"></asp:TextBox>
+                <asp:Button ID="btnBuscarEmpleado" runat="server" Text="Buscar Empleado" CssClass="btn btn-primary" OnClick="btnBuscarEmpleado_Click" />
+            </div>
+            <div class="form-group">
+                <label for="txtNombre">Nombre Completo:</label>
+                <asp:TextBox ID="txtNombre" runat="server" CssClass="input-field"></asp:TextBox>
+            </div>
+            <div class="form-group">
+                <label for="txtCargo">Cargo:</label>
+                <asp:TextBox ID="txtCargo" runat="server" CssClass="input-field"></asp:TextBox>
             </div>
 
             <div class="form-group">
                 <label for="txtSalarioBase">Salario Base:</label>
                 <asp:TextBox ID="txtSalarioBase" runat="server" CssClass="input-field" ReadOnly="true"></asp:TextBox>
             </div>
-
             <div class="form-group">
-                <label for="txtHorasExtras">Horas Extras:</label>
-                <asp:TextBox ID="txtHorasExtras" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
+                <label for="txtDeduccionSalud">Deduccion salud:</label>
+                <asp:TextBox ID="txtDeduccionSalud" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
             </div>
-
             <div class="form-group">
-                <label for="txtDeducciones">Deducciones:</label>
-                <asp:TextBox ID="txtDeducciones" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
+                <label for="txtDeduccionPension">Deduccion pension:</label>
+                <asp:TextBox ID="txtDeduccionPension" runat="server" CssClass="input-field" TextMode="Number"></asp:TextBox>
             </div>
-
             <div class="form-group">
                 <label for="txtAuxilioTransporte">Auxilio de Transporte:</label>
                 <asp:TextBox ID="txtAuxilioTransporte" runat="server" CssClass="input-field" ReadOnly="true"></asp:TextBox>

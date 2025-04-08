@@ -24,13 +24,40 @@ namespace LaMasCoqueta
         protected global::System.Web.UI.HtmlControls.HtmlForm frmInicio;
 
         /// <summary>
-        /// ddlEmpleado control.
+        /// txtEmpleado control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEmpleado;
+        protected global::System.Web.UI.WebControls.TextBox txtEmpleado;
+
+        /// <summary>
+        /// btnBuscarEmpleado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBuscarEmpleado;
+
+        /// <summary>
+        /// txtNombre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNombre;
+
+        /// <summary>
+        /// txtCargo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCargo;
 
         /// <summary>
         /// txtSalarioBase control.
@@ -42,22 +69,22 @@ namespace LaMasCoqueta
         protected global::System.Web.UI.WebControls.TextBox txtSalarioBase;
 
         /// <summary>
-        /// txtHorasExtras control.
+        /// txtDeduccionSalud control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtHorasExtras;
+        protected global::System.Web.UI.WebControls.TextBox txtDeduccionSalud;
 
         /// <summary>
-        /// txtDeducciones control.
+        /// txtDeduccionPension control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDeducciones;
+        protected global::System.Web.UI.WebControls.TextBox txtDeduccionPension;
 
         /// <summary>
         /// txtAuxilioTransporte control.

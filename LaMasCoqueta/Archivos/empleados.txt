@@ -1,3 +1,5 @@
 1001,Juan,Pérez,35,Administrador,3500000
 1002,Marta,Gómez,28,Contadora,2800000
 1003,Pedro,Ramírez,40,Operario,1800000
+1005,Alejandro,Franco,25,Administrativo,15000000
+1006,Pablo,Gutierrez,39,Supervisor,2000000

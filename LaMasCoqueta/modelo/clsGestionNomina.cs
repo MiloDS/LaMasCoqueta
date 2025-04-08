@@ -8,22 +8,22 @@ namespace LaMasCoqueta.modelo
 {
     public class clsGestionNomina
     {
-        private static string rutaNomina = "~/nomina.txt";
+        private static string rutaArchivo = HttpContext.Current.Server.MapPath("~/Archivos/nomina.txt");
 
-        public static void GuardarNomina(clsNomina nomina)
+        public  void GuardarNomina(clsNomina nomina)
         {
-            using (StreamWriter sw = new StreamWriter(rutaNomina, true))
+            using (StreamWriter sw = new StreamWriter(rutaArchivo, true))
             {
                 sw.WriteLine(nomina.ToCSV());
             }
         }
 
-        public static List<clsNomina> LeerNominas()
+        public  List<clsNomina> LeerNominas()
         {
             List<clsNomina> nominas = new List<clsNomina>();
-            if (File.Exists(rutaNomina))
+            if (File.Exists(rutaArchivo))
             {
-                using (StreamReader sr = new StreamReader(rutaNomina))
+                using (StreamReader sr = new StreamReader(rutaArchivo))
                 {
                     string linea;
                     while ((linea = sr.ReadLine()) != null)

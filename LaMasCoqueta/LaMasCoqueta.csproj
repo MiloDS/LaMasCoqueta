@@ -72,6 +72,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="ListadoEmpleados.aspx" />
+    <Content Include="ListadoNomina.aspx" />
     <Content Include="Nomina.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="ListadoEmpleados.aspx.designer.cs">
       <DependentUpon>ListadoEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoNomina.aspx.cs">
+      <DependentUpon>ListadoNomina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListadoNomina.aspx.designer.cs">
+      <DependentUpon>ListadoNomina.aspx</DependentUpon>
     </Compile>
     <Compile Include="modelo\clsEmpleado.cs" />
     <Compile Include="modelo\clsGestionEmpleado.cs" />

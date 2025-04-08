@@ -7,9 +7,9 @@ namespace LaMasCoqueta.modelo
 {
     public class clsGestionEmpleado
     {
-        private static string rutaArchivo = HttpContext.Current.Server.MapPath("~/Archivos/empleados.txt");
+        private  string rutaArchivo = HttpContext.Current.Server.MapPath("~/Archivos/empleados.txt");
 
-        public static void GuardarEmpleado(clsEmpleado empleado)
+        public  void GuardarEmpleado(clsEmpleado empleado)
         {
             // Verificar que la carpeta exista
             string directorio = Path.GetDirectoryName(rutaArchivo);
@@ -24,7 +24,7 @@ namespace LaMasCoqueta.modelo
             }
         }
 
-        public static List<clsEmpleado> LeerEmpleados()
+        public  List<clsEmpleado> LeerEmpleados()
         {
             List<clsEmpleado> empleados = new List<clsEmpleado>();
 
@@ -46,7 +46,7 @@ namespace LaMasCoqueta.modelo
             return empleados;
         }
 
-        public static clsEmpleado BuscarEmpleado(int codigo)
+        public  clsEmpleado BuscarEmpleado(int codigo)
         {
             List<clsEmpleado> empleados = LeerEmpleados();
             return empleados.Find(e => e.Codigo == codigo);
